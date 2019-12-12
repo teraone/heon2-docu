@@ -29,10 +29,14 @@ url: "https://teraone.github.io" # the base hostname & protocol for your site, e
 github_username:  teraone
 
 # Build settings
-remote-theme: just-the-docs
+theme: just-the-docs
 
+# Theme Config
 search_enabled: true
-
+logo: "/assets/images/logo.png"
+color_scheme: "dark"
+# Enable support for hyphenated search words:
+search_tokenizer_separator: /[\s/]+/
 
 # Exclude from processing.
 # The following items will not be processed, by default.
