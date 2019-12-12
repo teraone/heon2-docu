@@ -2,7 +2,7 @@
 layout: default
 title: Documentation Help
 has_children: true
-nav_order: 2
+nav_order: 99
 description: "Just the Docs is a responsive Jekyll theme with built-in search that is easily customizable and hosted on GitHub Pages."
 permalink: /documentation-help
 ---
