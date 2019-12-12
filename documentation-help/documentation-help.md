@@ -4,7 +4,7 @@ title: Documentation Help
 has_children: true
 nav_order: 2
 description: "Just the Docs is a responsive Jekyll theme with built-in search that is easily customizable and hosted on GitHub Pages."
-permalink: /docs/documentation-help
+permalink: /documentation-help
 ---
 
 # Focus on writing good documentation
@@ -63,7 +63,7 @@ If you're hosting your site on GitHub Pages, [set up GitHub Pages and Jekyll loc
 
 ### Configure Just the Docs
 
-- [See configuration options]({{ site.baseurl }}{% link docs/documentation-help/configuration.md %})
+- [See configuration options]({{ site.baseurl }}{% link documentation-help/configuration.md %})
 
 ---
 

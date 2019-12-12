@@ -3,7 +3,8 @@ layout: default
 title: UI Components
 nav_order: 3
 has_children: true
-permalink: /docs/documentation-help/ui-components
+parent: Documentation Help
+permalink: /documentation-help/ui-components
 ---
 
 # UI Components

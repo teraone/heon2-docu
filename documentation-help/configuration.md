@@ -78,7 +78,7 @@ color_scheme: "dark"
 
 <script type="text/javascript" src="{{ "/assets/js/dark-mode-preview.js" | absolute_url }}"></script>
 
-See [Customization]({{ site.baseurl }}{% link docs/documentation-help/customization.md %}) for more information.
+See [Customization]({{ site.baseurl }}{% link documentation-help/customization.md %}) for more information.
 
 ## Google Analytics
 

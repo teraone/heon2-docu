@@ -3,6 +3,8 @@ layout: default
 title: Code
 parent: UI Components
 nav_order: 6
+grand_parent: Documentation Help
+
 ---
 
 # Code
