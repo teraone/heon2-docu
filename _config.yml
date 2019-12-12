@@ -27,7 +27,7 @@ url: "https://teraone.github.io" # the base hostname & protocol for your site, e
 github_username:  teraone
 
 # Build settings
-# remote_theme: pmarsceill/just-the-docs
+remote_theme: pmarsceill/just-the-docs
 
 # Theme Config
 search_enabled: true
