@@ -121,9 +121,8 @@ Templates for rendering a page are located in the `/pages` folder.
 
 Let's start by creating a simple page template.
 
-<div class="code-example">
 /pages/default.twig
-</div>
+
 
 ```twig
 {% block content %}
@@ -163,7 +162,7 @@ You can now use the variable in the template file
 {% endblock content %}
 ```
 
-## Section Temaplates
+## Section Templates
 
 Templates for rendering a section are located in the `/sections` folder. In order to render the sections of a page, we will insert the follwing code in our page template.
 
