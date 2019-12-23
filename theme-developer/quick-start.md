@@ -6,18 +6,16 @@ parent: Theme Developer
 ---
 
 # Quick Start
-
 {: .no_toc }
 
 Quick start guide for theme developers
 {: .fs-6 .fw-300 }
 
 ## Table of contents
-
 {: .no_toc .text-delta }
 
 1. TOC
-   {:toc}
+{:toc}
 
 ---
 
