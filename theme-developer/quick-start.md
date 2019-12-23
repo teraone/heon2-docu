@@ -175,8 +175,11 @@ Templates for rendering a section are located in the `/sections` folder. In orde
 <div>
   <h1>Page Template</h1>
 
-  {% block sections %} {% for section in page.sections %} {% include
-  section._template_name with section.data %} {% endfor %} {% endblock %}
+  {% block sections %}
+    {% for section in page.sections %}
+      {% include section._template_name with section.data %}
+    {% endfor %}
+  {% endblock %}
 </div>
 ```
 
