@@ -23,7 +23,7 @@ email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
   Documentation for Hello One
 baseurl: "/heon2-docu" # the subpath of your site, e.g. /blog
-url: "https://teraone.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://docs.hello-one.de/" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  teraone
 
 # Build settings
