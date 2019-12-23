@@ -120,8 +120,9 @@ A template is just a simple `.twig` file. If the user should be able to set some
 Templates for rendering a page are located in the `/pages` folder.
 
 Let's start by creating a simple page template.
+
 <div class="code-example">
-default.twig
+/pages/default.twig
 </div>
 
 ```twig
@@ -133,19 +134,55 @@ default.twig
 ```
 
 
+## Template Options
 
+If the user should be able to set some page specific settings, create an corresponding `.twig.json` file.
+
+/pages/default.twig.json
+
+```json
+[
+  {
+    "name": "color",
+    "type": "select",
+    "value": "blue",
+    "options": ["blue", "red", "green"]
+  }
+]
+```
+
+The above option enables the user to select a color for every page and sets the default to blue.
+
+You can now use the variable in the template file
+
+```twig
+{% block content %}
+    <div style="background-color: {{ color }}">
+        <h1>Page Template</h1>
+    </div>
+{% endblock content %}
+```
 
 ## Section Temaplates
 
-Templates for rendering a section are located in the `/sections` folder.
+Templates for rendering a section are located in the `/sections` folder. In order to render the sections of a page, we will insert the follwing code in our page template.
+
+/pages/default.twig
 
 ```twig
+    <div>
+        <h1>Page Template</h1>
+
         {% block sections %}
             {% for section in page.sections %}
                 {% include section._template_name with section.data %}
             {% endfor %}
         {% endblock %}
+
+    </div>
 ```
+
+## Using the Hello One Theme Editor
 
 ## Asset Folder
 
