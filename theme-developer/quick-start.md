@@ -30,7 +30,7 @@ $ cd theme-name
 
 ## The Configuration File
 
-Start by creating a `package.json` file in the root of your project.
+Start by creating a `package.json` file in the root of your project and add some basic information.
 ```json
 {
     "name": "@teraone\/theme-name",
@@ -41,43 +41,49 @@ Start by creating a `package.json` file in the root of your project.
         "email": "pool@teraone.de",
         "url": "https:\/\/teraone.de"
     },
-    "config": {
-        "defaultPageTemplate": "pages\/default.twig",
-        "themeSettings": [
-            {
-                "name": "useSidebar",
-                "category": "menu",
-                "type": "text",
-                "value": "Hallo Welt"
-            },
-            {
-                "name": "backgroundColor",
-                "category": "colors",
-                "type": "select",
-                "options": {
-                    "green": "green",
-                    "blue": "blue"
-                },
-                "value": "green"
-            },
-            {
-                "name": "textColor",
-                "category": "colors",
-                "type": "select",
-                "options": {
-                    "blue": "Blue Text",
-                    "green": "Green Text"
-                },
-                "value": "blue"
-            }
-        ]
-    },
     "repository": {
         "type": "git",
         "url": "https:\/\/github.com\/teraone\/default-template"
     }
 }
 ```
+
+### Theme Configuration
+
+Settings and configuration of the theme are stored in the `config` object.
+
+```json
+{
+    "config": {
+        "defaultPageTemplate": "pages\/default.twig",
+    }
+}
+```
+The configuration above specifies the path of the default page template, which should be used to render a page.
+
+
+#### Theme Settings
+
+If you want the user to be able to customize your theme by setting some variables. You can use the `themeSettings` array.
+```json
+{
+    "config": {
+        "themeSettings": [
+            {
+                "name": "textColor", // name of the setting
+                "category": "colors", // used for categorisation
+                "type": "select",
+                "options": {
+                    "blue": "Blue Text",
+                    "green": "Green Text"
+                }, // avaible options
+                "value": "blue" // default value
+            }
+        ]
+    }
+}
+```
+The setting above enables the user to select the text color of the theme. The user is able to select one of the `options`. The default is `blue`.
 
 ## Page Templates
 
