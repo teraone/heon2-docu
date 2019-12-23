@@ -123,8 +123,7 @@ Let's start by creating a simple page template.
 
 /pages/default.twig
 
-
-```twig
+```html
 {% block content %}
     <div>
         <h1>Page Template</h1>
@@ -154,7 +153,7 @@ The above option enables the user to select a color for every page and sets the 
 
 You can now use the variable in the template file
 
-```twig
+```html
 {% block content %}
     <div style="background-color: {{ color }}">
         <h1>Page Template</h1>
@@ -168,7 +167,7 @@ Templates for rendering a section are located in the `/sections` folder. In orde
 
 /pages/default.twig
 
-```twig
+```html
     <div>
         <h1>Page Template</h1>
 
