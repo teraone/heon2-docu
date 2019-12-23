@@ -28,6 +28,18 @@ $ mkdir theme-name
 $ cd theme-name
 ```
 
+## Folder Structur
+Every theme consists at least of  a `package.json` and a page template.
+
+| name           | Description
+|:---------------|:------------------|
+| /pages/        | folder of page templates |
+| /sections/     | folder of section templates   |
+| /partials/     | folder of partial templates      |
+| /emails/       | folder of email templates      |
+| /assets/       | assets of the theme (e.g. css & js files) |
+| /packages.json | configuration file of the theme |
+
 ## The Configuration File
 
 Start by creating a `package.json` file in the root of your project and add some basic information.
@@ -49,7 +61,7 @@ Start by creating a `package.json` file in the root of your project and add some
 ```
 
 ### Theme Configuration
-
+{: .no_toc }
 Settings and configuration of the theme are stored in the `config` object.
 
 ```json
@@ -62,8 +74,8 @@ Settings and configuration of the theme are stored in the `config` object.
 The configuration above specifies the path of the default page template, which should be used to render a page.
 
 
-#### Theme Settings
-
+### Theme Settings
+{: .no_toc }
 If you want the user to be able to customize your theme by setting some variables. You can use the `themeSettings` array.
 ```json
 {
@@ -86,6 +98,7 @@ If you want the user to be able to customize your theme by setting some variable
 The setting above enables the user to select the text color of the theme. The user is able to select one of the `options`. The default is `blue`.
 
 ## Page Templates
+
 
 
 
