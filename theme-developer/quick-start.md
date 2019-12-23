@@ -123,12 +123,12 @@ Let's start by creating a simple page template.
 
 /pages/default.twig
 
-```
-{% block content %}
+```html
+<!-- {% block content %}
     <div>
         <h1>Page Template</h1>
     </div>
-{% endblock content %}
+{% endblock content %} -->
 ```
 
 
@@ -153,12 +153,12 @@ The above option enables the user to select a color for every page and sets the 
 
 You can now use the variable in the template file
 
-```
-{% block content %}
+```html
+<!-- {% block content %}
     <div style="background-color: {{ color }}">
         <h1>Page Template</h1>
     </div>
-{% endblock content %}
+{% endblock content %} -->
 ```
 
 ## Section Templates
@@ -167,8 +167,8 @@ Templates for rendering a section are located in the `/sections` folder. In orde
 
 /pages/default.twig
 
-```
-    <div>
+```html
+    <!-- <div>
         <h1>Page Template</h1>
 
         {% block sections %}
@@ -177,7 +177,7 @@ Templates for rendering a section are located in the `/sections` folder. In orde
             {% endfor %}
         {% endblock %}
 
-    </div>
+    </div> -->
 ```
 
 ## Using the Hello One Theme Editor
