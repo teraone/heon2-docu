@@ -122,15 +122,17 @@ Templates for rendering a page are located in the `/pages` folder.
 Let's start by creating a simple page template.
 
 /pages/default.twig
+{% raw  %}
 
 ```html
-<!-- {% block content %}
-    <div>
-        <h1>Page Template</h1>
-    </div>
-{% endblock content %} -->
+{% block content %}
+<div>
+  <h1>Page Template</h1>
+</div>
+{% endblock content %}
 ```
 
+{% endraw %}
 
 ## Template Options
 
@@ -152,33 +154,35 @@ If the user should be able to set some page specific settings, create an corresp
 The above option enables the user to select a color for every page and sets the default to blue.
 
 You can now use the variable in the template file
+{% raw  %}
 
 ```html
-<!-- {% block content %}
-    <div style="background-color: {{ color }}">
-        <h1>Page Template</h1>
-    </div>
-{% endblock content %} -->
+{% block content %}
+<div style="background-color: {{ color }}">
+  <h1>Page Template</h1>
+</div>
+{% endblock content %}
 ```
+
+{% endraw %}
 
 ## Section Templates
 
 Templates for rendering a section are located in the `/sections` folder. In order to render the sections of a page, we will insert the follwing code in our page template.
 
 /pages/default.twig
+{% raw  %}
 
 ```html
-    <!-- <div>
-        <h1>Page Template</h1>
+<div>
+  <h1>Page Template</h1>
 
-        {% block sections %}
-            {% for section in page.sections %}
-                {% include section._template_name with section.data %}
-            {% endfor %}
-        {% endblock %}
-
-    </div> -->
+  {% block sections %} {% for section in page.sections %} {% include
+  section._template_name with section.data %} {% endfor %} {% endblock %}
+</div>
 ```
+
+{% endraw %}
 
 ## Using the Hello One Theme Editor
 
