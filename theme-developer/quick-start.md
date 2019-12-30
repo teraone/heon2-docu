@@ -30,10 +30,11 @@ $ cd theme-name
 
 ## Folder Structur
 
-Every theme consists at least of a `package.json` and a page template.
+Every theme consists at least of a `package.json` and a base template.
 
 | name           | Description                               |
 | :------------- | :---------------------------------------- |
+| /layouts/      | folder of layout templates                |
 | /pages/        | folder of page templates                  |
 | /sections/     | folder of section templates               |
 | /partials/     | folder of partial templates               |
@@ -113,6 +114,12 @@ More Information:
 
 A template is just a simple `.twig` file. If the user should be able to set some options you should also create a corresponding `.twig.json` file.
 
+
+## Base Template
+
+
+
+
 ## Page Templates
 
 Templates for rendering a page are located in the `/pages` folder.
@@ -188,6 +195,16 @@ Templates for rendering a section are located in the `/sections` folder. In orde
 ## Using the Hello One Theme Editor
 
 ## Asset Folder
+
+Additional files such as `css`, `js` or `images` are stored in the `/assets` folder. You can reference those files in you template files.
+
+For instance, you can reference a `styles.css` in your template like this:
+
+```html
+    {{ style_tag('assets/style.css') }}
+```
+
+This will create a html `<style>` tag, which source is the `styles.css` file.
 
 ## Forms
 
