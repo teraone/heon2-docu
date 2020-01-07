@@ -17,13 +17,13 @@ permalink: /project-manager
 
 ---
 
-## Create project
+# Create project
 
 Start with a projekt first. 
 
-### New projekt
+## New projekt
 
-### Setup 
+## Setup 
 General
 Domains
 User
@@ -31,14 +31,14 @@ Redirects
 Theme
 Email
 
-## Website
+# Website
 General: Theme Editor & Pages. How it works together?
-### Pages
-### Theme editor
-### Menue
+## Pages
+## Theme editor
+## Menue
 
 
-## Events
+# Events
 Create event
 Edit event
 Status
@@ -47,18 +47,18 @@ Date
 Booking Date
 Maximum number of guests
 
-## Resources
+# Resources
 In general? 
 
-### Forms 
+## Forms 
 
-### Form submissions 
+## Form submissions 
 
-### Mails
+## Mails
 
-### Guests
+## Guests
 
-### Audiences
+## Audiences
 
 
 
