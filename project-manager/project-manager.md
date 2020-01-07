@@ -24,12 +24,12 @@ Start with a projekt first.
 ## New projekt
 
 ## Setup 
-General
-Domains
-User
-Redirects
-Theme
-Email
+General,
+Domains,
+User,
+Redirects,
+Theme,
+Email,
 
 # Website
 General: Theme Editor & Pages. How it works together?
