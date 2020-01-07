@@ -19,11 +19,9 @@ A project manager has the task of managing the pages and events in hello one. To
 
 # Create project
 
-After registration, a first test project is created automatically. As a manager, you can create several test projects. To create u can use: https://dashboard.hello-one.de/create-project or click on the Create button in the navigation. 
+After registration, a first test project is created automatically. As a manager, you can create several test projects. To create u can use: [https://dashboard.hello-one.de/create-project](https://dashboard.hello-one.de/create-project) or click on the create button in the navigation. 
 
 ![](https://docs.hello-one.de/project-manager/createProject.png)
-
-## New projekt
 
 ## Setup 
 General,
