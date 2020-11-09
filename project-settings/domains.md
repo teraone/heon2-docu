@@ -27,7 +27,7 @@ You can use this domain as your primary domain, but we strongly recommend settin
 
 
 ## Add a Custom Domain
-You can connect your site to any Domain you own.
+You can connect your site to any domain you own.
 On the domain settings page enter you domain name and click the "Add Domain" button.
 Do this for every domain.
 
@@ -35,6 +35,9 @@ Do this for every domain.
 {: .no_toc }
 Let's say you want to use `www.example.com` for your site. We recommend to also add the root domain
 `example.com` to your project. Your site will then also be reachable under both domains.
+
+Please notice: `www.example.com` and `example.com`(a.k.a. root domain) are two different domains. 
+If you wand to use both you will have to add each of them seperatly.
 
 
 Please note: We redirect all requests to the default domain. This prevents duplicate content.
